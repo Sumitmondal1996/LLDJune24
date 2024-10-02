@@ -1,6 +1,4 @@
-package com.scaler.lldjun24.multithreading;
-
-import org.springframework.scheduling.concurrent.ExecutorConfigurationSupport;
+package com.scaler.lldjun24.multithreading.Numberprinter;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

@@ -1,4 +1,4 @@
-package com.scaler.lldjun24.multithreading;
+package com.scaler.lldjun24.multithreading.Numberprinter;
 
 public class HelloPrinter  implements Runnable{
     public void run() {

@@ -19,7 +19,7 @@ public class MergeSorter implements Callable<List<Integer>> {
             if(list.size()<=1)
             {
                 return  list;
-            }
+            }      
 
             int n = list.size();
             int m = (n-1)/2;
