@@ -9,7 +9,7 @@ public class Client {
         Queue queue = new ConcurrentLinkedQueue(); // by default it will be synchronized
         int max_size =6;
 
-        Semaphore productsemaphore = new Semaphore(max_size);
+        Semaphore productsemaphore = new Semaphore(max_size); // how many thread is allowed
         Semaphore consumersemaphore = new Semaphore(0);
 
         Producer p1 = new Producer(queue, max_size, productsemaphore, consumersemaphore, "p1");
